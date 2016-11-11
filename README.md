@@ -8,6 +8,9 @@
 <!-- endbadge -->
 
 # Install
+```bash
+$ npm install mkp-react-native-style-helper --save
+```
 
 # Support
 android/ios
