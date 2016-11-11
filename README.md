@@ -50,4 +50,12 @@ support three styles
 * margin(topAndBottom:Number,leftAndRight:Number)
 * margin(top:Number,right:Number,bottom:Number,left:Number)
 
-## shadow(color = "#000000", opacity = 0.2, radius = 1, offset={width:0,height:2})
+## shadow
+```javascript
+shadow(color = "#000000", opacity = 0.2, radius = 1, offset={width:0,height:2})
+```
+
+## getResponsiveValue
+```javascript
+getResponsiveValue(value:Number,sourceDensity:Number)
+```
