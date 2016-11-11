@@ -18,6 +18,7 @@ android/ios
 # Quick Start
 ```javascript
 import {StyleSheet} from "react-native";
+import {padding,margin,shadow} from "mkp-react-native-style-helper";
 
 const styles=StyleSheet.create({
 	style1:{
