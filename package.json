@@ -1,0 +1,24 @@
+{
+  "name": "react-native-style-helper",
+  "version": "1.0.0",
+  "description": "react native style helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m860/react-native-style-helper.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-style",
+    "react-native-style-helper"
+  ],
+  "author": "m860",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m860/react-native-style-helper/issues"
+  },
+  "homepage": "https://github.com/m860/react-native-style-helper#readme"
+}
