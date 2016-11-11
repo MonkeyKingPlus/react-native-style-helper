@@ -1,6 +1,10 @@
 # react-native-style-helper
 
 <!-- badge -->
+[![npm version](https://img.shields.io/npm/v/mkp-react-native-style-helper.svg)](https://www.npmjs.com/package/mkp-react-native-style-helper)
+[![npm license](https://img.shields.io/npm/l/mkp-react-native-style-helper.svg)](https://www.npmjs.com/package/mkp-react-native-style-helper)
+[![npm download](https://img.shields.io/npm/dm/mkp-react-native-style-helper.svg)](https://www.npmjs.com/package/mkp-react-native-style-helper)
+[![npm download](https://img.shields.io/npm/dt/mkp-react-native-style-helper.svg)](https://www.npmjs.com/package/mkp-react-native-style-helper)
 <!-- endbadge -->
 
 # Install
