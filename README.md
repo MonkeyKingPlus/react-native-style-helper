@@ -57,5 +57,5 @@ shadow(color = "#000000", opacity = 0.2, radius = 1, offset={width:0,height:2})
 
 ## getResponsiveValue
 ```javascript
-getResponsiveValue(value:Number,sourceDensity:Number)
+getResponsiveValue(value:Number,sourceDensity:Number=3)
 ```
