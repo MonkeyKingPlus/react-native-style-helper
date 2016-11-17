@@ -92,7 +92,18 @@ export function shadow(color = "#000000", opacity = 0.2, radius = 1, offset = {
 }
 
 export function getResponsiveValue(value:Number,designDensity:Number=2,designScreenWidth:Number=375){
-	let rate=designScreenWidth/deviceSize.width;
+	let rate=deviceSize.width/designScreenWidth;
 	let realValue=(value/designDensity)*density;
 	return PixelRatio.roundToNearestPixel(realValue*rate);
+}
+
+export function getResponsiveFontSize(value:Number,designDensity:Number=2){
+	switch (density){
+		case 1:
+			return Math.round(value-1);
+		case 3:
+			return Math.round(value+1);
+		default:
+			return Math.round(value);
+	}
 }

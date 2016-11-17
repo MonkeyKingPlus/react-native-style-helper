@@ -50,12 +50,17 @@ support three styles
 * margin(topAndBottom:Number,leftAndRight:Number)
 * margin(top:Number,right:Number,bottom:Number,left:Number)
 
-## shadow
+## shadow (Only IOS)
 ```javascript
 shadow(color = "#000000", opacity = 0.2, radius = 1, offset={width:0,height:2})
 ```
 
 ## getResponsiveValue
 ```javascript
-getResponsiveValue(value:Number,sourceDensity:Number=3)
+getResponsiveValue(value:Number,designDensity:Number=2,designScreenWidth:Number=375)
+```
+
+## getResponsiveFontSize
+```javascript
+getResponsiveFontSize(value:Number,designDensity:Number=2)
 ```
