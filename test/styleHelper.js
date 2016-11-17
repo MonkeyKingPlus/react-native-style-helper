@@ -1,4 +1,9 @@
-import {PixelRatio} from "react-native";
+import {
+	PixelRatio
+	,Dimensions
+} from "react-native";
+
+const deviceSize=Dimensions.get("window");
 
 const density=PixelRatio.get();
 
@@ -86,6 +91,8 @@ export function shadow(color = "#000000", opacity = 0.2, radius = 1, offset = {
 	return value;
 }
 
-export function getResponsiveValue(value:Number,sourceDensity:Number=3){
-	return PixelRatio.roundToNearestPixel(value*(density/sourceDensity));
+export function getResponsiveValue(value:Number,designDensity:Number=2,designScreenWidth:Number=375){
+	let rate=designScreenWidth/deviceSize.width;
+	let realValue=(value/designDensity)*density;
+	return PixelRatio.roundToNearestPixel(realValue*rate);
 }
